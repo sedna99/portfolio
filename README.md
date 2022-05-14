@@ -1,8 +1,8 @@
-#Senda99's blog
+# Senda99's blog
 
 Share my experience to Developers
 
-##Linux
+## Linux
 
 [Install Ubuntu 22.04 with Windows 10 Dual Booting][installUbuntu]
 
