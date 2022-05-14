@@ -1,7 +1,3 @@
----
-layout: home
----
-
 #Senda99's blog
 
 Share my experience to Developers
