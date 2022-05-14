@@ -1,9 +1,10 @@
 ---
-title: Contact
-author: Tao He
-date: 2022-02-05
-category: Jekyll
+title: Contact me
+author: sedna99
+date: 2022-05-14
+category: contact
 layout: post
 ---
 
-This is an contact page.
+author: sedna99
+mail: ljsmmm1228@gmail.com
