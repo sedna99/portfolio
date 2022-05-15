@@ -32,6 +32,7 @@ Rufus 3.1.8
 (If you are planning to use Docker with Ubuntu then assign more volume on /var partition. In my case, 4GB wasn't enough and finally setting 100GB)
 
 references:
+
   https://shanepark.tistory.com/230
   https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%ED%8C%8C%ED%8B%B0%EC%85%98_%EC%9A%A9%EB%9F%89_%EB%B0%B0%EB%B6%84
 
