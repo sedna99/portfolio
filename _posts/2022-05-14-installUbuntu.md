@@ -7,6 +7,7 @@ layout: post
 ---
 
 Environments and Used Application: 
+
 windows on C Drive (500G SSD), and some Files on D Driver (1TB HDD),
 Sandisk 16GB USB
 Rufus 3.1.8
