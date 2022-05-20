@@ -8,7 +8,7 @@ Share my experience to Developers
 
 ## AWS
 
-[Install Apache 2.4 on AWS EC2 instance][
+[Install Apache 2.4 on AWS EC2 instance][installApacheEc2]
 
 [//]:#
 [installUbuntu]: <https://sedna99.github.io/linux/2022-05-14-installUbuntu.html>
