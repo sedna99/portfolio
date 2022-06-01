@@ -7,10 +7,10 @@ layout: post
 ---
 
 Environments and Used Application:  
-Amazon Linux2 Image on AWS EC2 Innstance  
-Node.js v16.15 LTS  
-Next.js v12.1.6  
-Nginx v1.2.0 for SSL Certificate and reverse proxy  
+- Amazon Linux2 Image on AWS EC2 Innstance  
+- Node.js v16.15 LTS  
+- Next.js v12.1.6  
+- Nginx v1.2.0 for SSL Certificate and reverse proxy  
 
 1. install node.js  
 ```curl -sL https://rpm.nodesource.com/setup_14.x | bash -```  
@@ -30,7 +30,6 @@ Nginx v1.2.0 for SSL Certificate and reverse proxy
 
 6. configure your nginx setting by change '/etc/nginx/nginx.conf' file  
 ```vi /etc/nginx/nginx.conf```  
-
 reverse proxy example  
 ```
 server {  
@@ -50,8 +49,8 @@ server {
   }  
 }  
 ```
-7. using reverse proxy and ssl connection  
 
+7. using reverse proxy and ssl connection  
 reverse proxy and ssl example   
 ```
 server {  
