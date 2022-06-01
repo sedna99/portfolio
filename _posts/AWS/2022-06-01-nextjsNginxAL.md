@@ -14,7 +14,7 @@ Nginx v1.2.0 for SSL Certificate and reverse proxy
 
 1. install node.js  
 ```curl -sL https://rpm.nodesource.com/setup_14.x | bash -```  
-```sudo yum install nodejs```  
+```sudo yum install nodejs```   
 
 2. install yarn  
 ```npm install -g yarn```  
@@ -32,7 +32,7 @@ Nginx v1.2.0 for SSL Certificate and reverse proxy
 ```vi /etc/nginx/nginx.conf```  
 
 reverse proxy example  
-
+```
 server {  
   listen       80;  
   listen       [::]:80;  
@@ -49,18 +49,18 @@ server {
     proxy_cache_bypass $http_upgrade;  
   }  
 }  
-
+```
 6. using reverse proxy and ssl connection  
 
-reverse proxy and ssl example  
-
+reverse proxy and ssl example   
+```
 server {  
   listen       80;  
   listen       [::]:80;  
   server_name  foo.bar; //domain  
 
   location / {  
-    return 301 https://$host$request_uri;  
+    return 301 https://&#36;host&#36;request_uri;  
   }  
 }  
 server {  
@@ -84,3 +84,4 @@ server {
     proxy_cache_bypass $http_upgrade;  
   }  
 }  
+```
