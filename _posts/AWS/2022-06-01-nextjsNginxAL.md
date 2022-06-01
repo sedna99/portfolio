@@ -28,7 +28,7 @@ Nginx v1.2.0 for SSL Certificate and reverse proxy
 5. start nginx  
 ```sudo systemctl start nginx```  
 
-5. configure your nginx setting by change '/etc/nginx/nginx.conf' file  
+6. configure your nginx setting by change '/etc/nginx/nginx.conf' file  
 ```vi /etc/nginx/nginx.conf```  
 
 reverse proxy example  
@@ -50,7 +50,7 @@ server {
   }  
 }  
 ```
-6. using reverse proxy and ssl connection  
+7. using reverse proxy and ssl connection  
 
 reverse proxy and ssl example   
 ```
