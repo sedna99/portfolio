@@ -8,9 +8,8 @@ Share my experience to Developers
 
 ## AWS
 
-[Install Apache 2.4 on AWS EC2 instance][installApacheEc2]
-
-[Setting nextjs with AWS EC2 instance with nginx][nextjsNginxAl]
+[Install Apache 2.4 on AWS EC2 instance][installApacheEc2]  
+[Setting nextjs with AWS EC2 instance with nginx][nextjsNginxAl]  
 
 ## NextJs
 [Setting eslint and prettier with typescript][eslintPrettierTypescript]
