@@ -52,12 +52,12 @@ ex)
 </Directory>  
 </code>
 </pre>
-*available options for Section(VirtualHost, Directory, e.t.c) can check on [this site][ApacheOfficial]  
+* available options for Section(VirtualHost, Directory, e.t.c) can check on [this site][ApacheOfficial]  
 
 9. and just open your webpage by input http://address.for.your.ec2Instance on your browser!
-references:
 
-  https://httpd.apache.org/docs/2.4/ko/sections.html
+references:  
+- https://httpd.apache.org/docs/2.4/ko/sections.html
 
 
 [ApacheOfficial]: https://httpd.apache.org/docs/2.4/ko/sections.html
