@@ -6,12 +6,14 @@ category: Apache
 layout: post
 ---
 
-Envi
+Environments and Used Application
+- Apache v2.4
 
 1. change apache config  
 - in my case change "/etc/apache2/site-available/000-default.conf" file  
 `sudo vi /etc/apache2/site-available/000-default.conf`  
-```
+<pre>
+<code>
 <VirtualHost *:443>
   ServerName servername
   CustomLog "/path/to/common/log"
@@ -27,7 +29,8 @@ Envi
   RequestHeader set X-Forwarded-Proto "https"
   RequestHeader set X-Forwarded-Port "443"
 </VirtualHost>
-```
+</code>
+</pre>
 
 2. check config options  
 `apache2ctl configtest`

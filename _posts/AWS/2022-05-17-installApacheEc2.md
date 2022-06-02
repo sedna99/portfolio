@@ -30,6 +30,8 @@ ubuntu 22.04 LTS Image on AWS EC2 instance
 7. configure your apache home path by change /etc/apache2/site-available/000-default.conf file
 
 ex) 
+<pre>
+<code>
 <VirtualHost *:80>  
   ServerAdmin: admin-mail-adress@foo.bar  
   DocumentRoot: /path/to/your/homepath  
@@ -37,16 +39,21 @@ ex)
   .  
   .  
 </VirtualHost>
+</code>
+</pre>
 
 8. add permission to your home path
 
 ex)  
+<pre>
+<code>
 <Directory /path/to/your/directory>  
   Options None  
   AllowOverride None  
   Require all granted  
 </Directory>  
-
+</code>
+</pre>
 *available options for Section(VirtualHost, Directory, e.t.c) can check on [this site][ApacheOfficial]  
 
 

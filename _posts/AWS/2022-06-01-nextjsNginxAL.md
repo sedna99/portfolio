@@ -30,8 +30,9 @@ Environments and Used Application:
 
 6. configure your nginx setting by change '/etc/nginx/nginx.conf' file  
 ```vi /etc/nginx/nginx.conf```  
-reverse proxy example  
-```
+- reverse proxy example  
+<pre>
+<code>
 server {  
   listen       80;  
   listen       [::]:80;  
@@ -48,11 +49,13 @@ server {
     proxy_cache_bypass $http_upgrade;  
   }  
 }  
-```
+</code>
+</pre>
 
 7. using reverse proxy and ssl connection  
-reverse proxy and ssl example   
-```
+- reverse proxy and ssl example   
+<pre>
+<code>
 server {  
   listen       80;  
   listen       [::]:80;  
@@ -83,4 +86,5 @@ server {
     proxy_cache_bypass $http_upgrade;  
   }  
 }  
-```
+</code>
+</pre>

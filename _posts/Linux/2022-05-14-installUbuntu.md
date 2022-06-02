@@ -8,9 +8,10 @@ layout: post
 
 Environments and Used Application: 
 
-windows on C Drive (500G SSD), and some Files on D Driver (1TB HDD),
-Sandisk 16GB USB
-Rufus 3.1.8
+windows on C Drive (500G SSD)  
+some Files on D Driver (1TB HDD)  
+Sandisk 16GB USB  
+Rufus 3.1.8  
 
 1. Backup and remove files on D drive
 
