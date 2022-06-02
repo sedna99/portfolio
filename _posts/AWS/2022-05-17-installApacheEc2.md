@@ -28,7 +28,6 @@ ubuntu 22.04 LTS Image on AWS EC2 instance
 ```sudo systemctl enable apache2```
 
 7. configure your apache home path by change /etc/apache2/site-available/000-default.conf file
-
 ex) 
 <pre>
 <code>
@@ -43,7 +42,6 @@ ex)
 </pre>
 
 8. add permission to your home path
-
 ex)  
 <pre>
 <code>
@@ -56,9 +54,7 @@ ex)
 </pre>
 *available options for Section(VirtualHost, Directory, e.t.c) can check on [this site][ApacheOfficial]  
 
-
 9. and just open your webpage by input http://address.for.your.ec2Instance on your browser!
-
 references:
 
   https://httpd.apache.org/docs/2.4/ko/sections.html
