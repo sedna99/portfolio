@@ -12,7 +12,7 @@ Environments and Used Application
 -Typescript  
 
 1. install eslint on Dev dependency  
-yarn add -D @eslint/eslint-plugin @typescript-eslint/parser
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 2. install prettier  
 yarn add -D prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks
