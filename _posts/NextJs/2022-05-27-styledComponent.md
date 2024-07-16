@@ -1,1 +1,0 @@
-styledComponent 정리

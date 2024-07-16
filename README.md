@@ -1,22 +1,30 @@
-# Senda99's blog
+# React + TypeScript + Vite
 
-Share my experience to Developers
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Linux
+Currently, two official plugins are available:
 
-[Install Ubuntu 22.04 with Windows 10 Dual Booting][installUbuntu]
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## AWS
+## Expanding the ESLint configuration
 
-[Install Apache 2.4 on AWS EC2 instance][installApacheEc2]  
-[Setting nextjs with AWS EC2 instance with nginx][nextjsNginxAl]  
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-## NextJs
-[Setting eslint and prettier with typescript][eslintPrettierTypescript]
+- Configure the top-level `parserOptions` property like this:
 
-[//]:#
-[installUbuntu]: <https://sedna99.github.io/linux/2022-05-14-installUbuntu.html>
-[installApacheEc2]: <https://sedna99.github.io/aws/2022-05-17-installApacheEc2.html>
-[nextjsNginxAl]: <https://sedna99.github.io/aws/2022-06-01-nextjsNginxAL.html>
-[eslintPrettierTypescript]: <https://sedna99.github.io/nextjs/2022-05-21-eslintPrettierTypescript.html>
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
 
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
