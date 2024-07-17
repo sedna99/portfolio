@@ -42,8 +42,8 @@ const skills = [
 const SkillCard = ({ title, skills, isLast }: SkillCardProps) => {
   return (
     <div className={`flex flex-wrap items-center justify-between ${!isLast ? "mb-5" : ""}`}>
-      <div className="flex items-center text-2xl w-[30%]">{title}</div>
-      <div className="w-[70%] text-md">
+      <div className="flex items-center text-2xl w-[35%]">{title}</div>
+      <div className="w-[65%] text-md">
         {skills.map((skill, index) => (
           <p key={index}>
             • {skill}
@@ -56,11 +56,13 @@ const SkillCard = ({ title, skills, isLast }: SkillCardProps) => {
 
 const Skills = () => {
   return (
-    <div className="w-[100%]">
+    <div className="relative flex flex-col items-center w-[100%]">
       <SectionName name="SKILLS" />
-      {skills.map((skill, index) => (
-        <SkillCard key={index} title={skill.title} skills={skill.skills} isLast={skills.length === index + 1} />
-      ))}
+      <div className="flex flex-col w-[90%]">
+        {skills.map((skill, index) => (
+          <SkillCard key={index} title={skill.title} skills={skill.skills} isLast={skills.length === index + 1} />
+        ))}
+      </div>
     </div>
   );
 };

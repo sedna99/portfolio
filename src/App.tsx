@@ -7,7 +7,6 @@ import Objective from "./sections/Objective";
 import Experiences from "./sections/Experiences";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
-import Education from "./sections/Education";
 
 function App() {
   return (
@@ -23,8 +22,6 @@ function App() {
         <Experiences />
         <Divider />
         <Projects />
-        <Divider />
-        <Education />
         <Divider />
       </Container>
     </Wrapper>
