@@ -30,7 +30,7 @@ const skills = [
   {
     title: "Devops",
     skills: [
-      "MySQL, MariaDB, MongoDB",
+      "MySQL, MariaDB, MongoDB, Redis",
       "Jenkins, Gitlab CI, Github Actions",
       "AWS, Docker, Harbor, HashiCorp Vault, ELK",
       "Nginx, Apache, Tomcat",
