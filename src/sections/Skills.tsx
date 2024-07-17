@@ -42,8 +42,8 @@ const skills = [
 const SkillCard = ({ title, skills, isLast }: SkillCardProps) => {
   return (
     <div className={`flex flex-wrap items-center justify-between ${!isLast ? "mb-5" : ""}`}>
-      <div className="flex items-center justify-center text-2xl w-[35%]">{title}</div>
-      <div className="w-[65%] text-lg">
+      <div className="flex items-center text-2xl w-[30%]">{title}</div>
+      <div className="w-[70%] text-md">
         {skills.map((skill, index) => (
           <p key={index}>
             • {skill}
