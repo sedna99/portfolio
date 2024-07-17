@@ -3,6 +3,7 @@ import type { SVGProps } from "react";
 export function GithubIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
+      className="mr-3"
       xmlns="http://www.w3.org/2000/svg"
       width="1.5em"
       height="1.5em"
@@ -20,6 +21,7 @@ export function GithubIcon(props: SVGProps<SVGSVGElement>) {
 export function MailIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
+      className="mr-3"
       xmlns="http://www.w3.org/2000/svg"
       width="1.5em"
       height="1.5em"

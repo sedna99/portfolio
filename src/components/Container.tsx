@@ -1,3 +1,9 @@
-const Container = ({ children }) => {
-  return <div className="flex max-w-[1280px]"></div>;
+import { ChildrenProps } from "@/types";
+
+const Container = ({ children }: ChildrenProps) => {
+  return <div className="max-w-[960px] w-[100%] relative">
+    {children}
+  </div>;
 };
+
+export default Container;
