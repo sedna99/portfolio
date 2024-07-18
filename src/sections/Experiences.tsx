@@ -28,7 +28,7 @@ const experiences = [
   },
   {
     name: "좋은생활건강",
-    date: "2023.06 - 2023.08",
+    date: "2023.07 - 2023.08",
     position: "FE/BE Developer & Cloud Engineer",
     descriptions: [
       "React.js를 활용한 웹 서비스 프론트엔드 개발",
@@ -83,7 +83,7 @@ const ExperienceCard = ({
   isLast,
 }: ExperienceCardProps) => {
   return (
-    <div className={`flex w-[90%] ${isLast ? "" : "mb-7"}`}>
+    <div className={`flex w-[90%] my-2 ${isLast ? "" : "mb-7"}`}>
       <div className="w-[35%] flex flex-col justify-center">
         <h1 className="text-xl font-bold">{name}</h1>
         <p className="text-lg tracking-[-0.5px] text-gray-500">{position}</p>

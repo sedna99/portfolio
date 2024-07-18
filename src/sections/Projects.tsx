@@ -217,13 +217,13 @@ const ProjectCard = ({
   isLast,
 }: ProjectCardProps) => {
   return (
-    <div className={`flex w-[90%] ${isLast ? "" : "mb-7"}`}>
+    <div className={`flex w-[90%] py-2 ${isLast ? "" : "mb-7"}`}>
       <div className="w-[35%] flex flex-col justify-center">
         <h1 className="text-base font-bold">{name}</h1>
         <p className="text-sm tracking-[-0.5px] text-gray-500">{subname}</p>
         <p className="text-sm text-gray-600">{date}</p>
       </div>
-      <div className="w-[65%]">
+      <div className="w-[65%] word-break">
         {descriptions.map((description, index) => (
           <p key={index}>• {description}</p>
         ))}
