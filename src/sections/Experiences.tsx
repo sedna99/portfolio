@@ -103,7 +103,11 @@ const Experiences = () => {
     <div className="relative flex flex-col items-center w-[100%]">
       <SectionName name="EXPERIENCES" />
       {experiences.map((experience, index) => (
-        <ExperienceCard key={index} {...experience} />
+        <ExperienceCard
+          key={index}
+          {...experience}
+          isLast={index === experiences.length - 1}
+        />
       ))}
     </div>
   );
