@@ -33,8 +33,8 @@ const experiences = [
     descriptions: [
       "React.js를 활용한 웹 서비스 프론트엔드 개발",
       "Node.js를 활용한 웹 서비스 백엔드 개발",
-      "AWS 인프라 설계, 구축 및 운영"
-    ]
+      "AWS 인프라 설계, 구축 및 운영",
+    ],
   },
   {
     name: "아스코랩",
@@ -46,8 +46,8 @@ const experiences = [
       "Node.js를 활용한 블록체인 어플리케이션 Backend 개발",
       "Typescript, Node.js, React.js를 활용한 정산 관리 시스템 기획, FE, BE 설계 및 개발",
       "AWS, NCP 인프라 설계, 구축 및 운영",
-      "프로젝트 일정 관리 및 업무 분담"
-    ]
+      "프로젝트 일정 관리 및 업무 분담",
+    ],
   },
   {
     name: "글리치 스튜디오",
@@ -59,8 +59,8 @@ const experiences = [
       "PHP, Laravel Framework를 활용한 블록체인 Backend 개발",
       "AWS 인프라 설계, 구축 및 운영",
       "네트워크 구성 관리",
-      "프로젝트 일정 관리 및 업무 분담"
-    ]
+      "프로젝트 일정 관리 및 업무 분담",
+    ],
   },
   {
     name: "(주)시더",
@@ -70,31 +70,33 @@ const experiences = [
       "프론트 엔드 개발",
       "백 엔드 개발",
       "AWS 인프라 운영 및 관리",
-      "딥 러닝 프로젝트 진행"
-    ]
-  }
+      "딥 러닝 프로젝트 진행",
+    ],
+  },
 ];
 
-const ExperienceCard = ({ name, position, date, descriptions, isLast }: ExperienceCardProps) => {
+const ExperienceCard = ({
+  name,
+  position,
+  date,
+  descriptions,
+  isLast,
+}: ExperienceCardProps) => {
   return (
     <div className={`flex w-[90%] ${isLast ? "" : "mb-7"}`}>
       <div className="w-[35%] flex flex-col justify-center">
         <h1 className="text-xl font-bold">{name}</h1>
-        <p className="text-lg text-gray-500">{position}</p>
+        <p className="text-lg tracking-[-0.5px] text-gray-500">{position}</p>
         <p className="text-lg text-gray-600">{date}</p>
       </div>
       <div className="w-[65%]">
-        {
-          descriptions.map((description, index) => (
-            <p key={index}>
-              • {description}
-            </p>
-          ))
-        }
+        {descriptions.map((description, index) => (
+          <p key={index}>• {description}</p>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 const Experiences = () => {
   return (
@@ -103,7 +105,7 @@ const Experiences = () => {
       {experiences.map((experience, index) => (
         <ExperienceCard key={index} {...experience} />
       ))}
-    </div >
+    </div>
   );
 };
 
