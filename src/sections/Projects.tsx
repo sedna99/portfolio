@@ -20,18 +20,6 @@ const projects = [
     ],
   },
   {
-    name: "채널링 정산 서비스 리뉴얼",
-    date: "2024.01 - 현재",
-    subname: "채널링 서비스 정산 관리 프로젝트",
-    descriptions: [
-      "Java(Spring Boot)를 기반으로 만들어진 백엔드 서버 수정 작업, 기능 추가 작업",
-      "react.js로 만들어진 프론트엔드 페이지 기능 변경 작업, 기능 추가 작업",
-      "Mysql 데이터베이스 구조 변경작업 및 Mybatis 쿼리 성능 개선",
-      "Jenkins를 통한 CI/CD 구축",
-      "Vault를 연동하여 민감한 환경변수들을 안전하게 관리",
-    ],
-  },
-  {
     name: "CMS 고도화",
     date: "2024.04 - 현재",
     subname: "CMS 고도화",
@@ -44,13 +32,27 @@ const projects = [
     ],
   },
   {
-    name: "NSlot 게임 서비스 정상화",
-    date: "2023.10 - 2023.11",
-    subname: "NSlot 서비스",
+    name: "채널링 정산 서비스 리뉴얼",
+    date: "2024.01 - 현재",
+    subname: "채널링 서비스 정산 관리 프로젝트",
     descriptions: [
-      "개발서버에 남아있는 데이터베이스 구조 및 데이터 분석을 통한 게임서버팀 지원",
-      "게임 서버 구성에서 사용되어있던 apache서버 분석 및 정상화",
-      "CMS와의 연동 정상화",
+      "Java(Spring Boot)를 기반으로 만들어진 백엔드 서버 수정 작업, 기능 추가 작업",
+      "react.js로 만들어진 프론트엔드 페이지 기능 변경 작업, 기능 추가 작업",
+      "Mysql 데이터베이스 구조 변경작업 및 Mybatis 쿼리 성능 개선",
+      "Jenkins를 통한 CI/CD 구축",
+      "Vault를 연동하여 민감한 환경변수들을 안전하게 관리",
+    ],
+  },
+  {
+    name: "CMS이전",
+    date: "2024.12 - 2024.04",
+    subname: "Legacy 시스템 이전 프로젝트",
+    descriptions: [
+      "Java, PHP를 기반으로 만들어진 백엔드 서버 Node.js(Nest.js)로 이전 작업",
+      "jsp로 만들어진 프론트엔드 페이지 react.js로 리뉴얼 작업",
+      "CMS1(PHP), CMS2(JAVA) 여러가지로 파편화 되어있던 데이터베이스를 하나로 합치며, 필요없는 레거시 테이블 삭제 작업 진행",
+      "Docker를 사용하여 컨테이너 기반의 서비스로 변경",
+      "Jenkins를 활용하여 CI/CD 구축",
     ],
   },
   {
@@ -64,15 +66,13 @@ const projects = [
     ],
   },
   {
-    name: "CMS이전",
-    date: "2024.12 - 2024.04",
-    subname: "Legacy 시스템 이전 프로젝트",
+    name: "NSlot 게임 서비스 정상화",
+    date: "2023.10 - 2023.11",
+    subname: "NSlot 서비스",
     descriptions: [
-      "Java, PHP를 기반으로 만들어진 백엔드 서버 Node.js(Nest.js)로 이전 작업",
-      "jsp로 만들어진 프론트엔드 페이지 react.js로 리뉴얼 작업",
-      "CMS1(PHP), CMS2(JAVA) 여러가지로 파편화 되어있던 데이터베이스를 하나로 합치며, 필요없는 레거시 테이블 삭제 작업 진행",
-      "Docker를 사용하여 컨테이너 기반의 서비스로 변경",
-      "Jenkins를 활용하여 CI/CD 구축",
+      "개발서버에 남아있는 데이터베이스 구조 및 데이터 분석을 통한 게임서버팀 지원",
+      "게임 서버 구성에서 사용되어있던 apache서버 분석 및 정상화",
+      "CMS와의 연동 정상화",
     ],
   },
   {
@@ -107,25 +107,13 @@ const projects = [
   },
   {
     name: "정산관리 시스템",
-    date: "2022.02 - 2023.06",
+    date: "2023.02 - 2023.06",
     subname: "웹 기반 정산관리 시스템",
     descriptions: [
       "다단계 회원구조의 정산관리 시스템의 전반적인 구조 설계",
       "Typescript, React.js를 활용한 정산관리 시스템 관리자페이지 Frontend 개발",
       "Typescript, Node.js를 활용한 정산관리 시스템 Backend 개발",
       "PM으로서 업무분담, 일정 관리 및 기획업무까지 담당",
-    ],
-  },
-  {
-    name: "Project A",
-    date: "2022.04 - 2022.12",
-    subname: "블록체인 지갑 어플리케이션",
-    descriptions: [
-      "블록체인 지갑 어플리케이션 프로젝트의 전반적인 시스템 구조 설계",
-      "Flutter 기반의 분산형 블록체인 지갑 어플리케이션 개발",
-      "Web3Dart를 통한 블록체인 네트워크와의 기능 연동 진행",
-      "PHP, Laravel 기반의 Backend 개발, Vue.js를 사용한 관리 페이지 개발",
-      "PM으로서 업무분담 및 일정관리 진행",
     ],
   },
   {
@@ -138,6 +126,18 @@ const projects = [
       "React.js를 기반으로한 어플리케이션 관리자 페이지 개발",
       "PM으로서 업무분담, 일정 관리 및 기획업무까지 담당",
       "AWS 인프라 설계 및 구축",
+    ],
+  },
+  {
+    name: "Project A",
+    date: "2022.04 - 2022.12",
+    subname: "블록체인 지갑 어플리케이션",
+    descriptions: [
+      "블록체인 지갑 어플리케이션 프로젝트의 전반적인 시스템 구조 설계",
+      "Flutter 기반의 분산형 블록체인 지갑 어플리케이션 개발",
+      "Web3Dart를 통한 블록체인 네트워크와의 기능 연동 진행",
+      "PHP, Laravel 기반의 Backend 개발, Vue.js를 사용한 관리 페이지 개발",
+      "PM으로서 업무분담 및 일정관리 진행",
     ],
   },
   {
