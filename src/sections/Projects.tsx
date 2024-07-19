@@ -166,15 +166,6 @@ const projects = [
     ],
   },
   {
-    name: "동작인식",
-    date: "2019.02 - 2019.06",
-    subname: "딥러닝을 이용한 동작인식 모듈",
-    descriptions: [
-      "Pytorch를 활용하여 Hand Detection, Gesture Recognition 서비스 개발",
-      "Do-order 솔루션과 연동하여 간단한 제스쳐만으로 사이니지와의 interaction을 가능하도록하는 모듈 개발",
-    ],
-  },
-  {
     name: "실시간 배차 관리 솔루션",
     date: "2019.02 - 2019.12",
     subname: "딥러닝을 이용한 실시간 배차관리 프로젝트",
@@ -184,13 +175,13 @@ const projects = [
     ],
   },
   {
-    name: "얼굴인식",
-    date: "2018.02 - 2018.12",
+    name: "얼굴인식 & 동작인식",
+    date: "2018.02 - 2019.06",
     subname: "딥러닝을 이용한 얼굴인식 모듈",
     descriptions: [
-      "Python을 사용하여 얼굴 표정인식 모듈 개발",
       "Tensorflow 기반의 Keras를 활용한 Face Detection, Emotion Recognition, Gaze Estimation 서비스 개발",
-      "Do-order 솔루션과 연동하여 광고를 시청 중인 사람의 연령대, 반응 등의 정보를 수집할 수 있는 모듈 개발",
+      "Pytorch를 활용하여 Hand Detection, Gesture Recognition 서비스 개발",
+      "Do-order 솔루션과 연동하여 광고를 시청 중인 사람의 정보 수집 및 인터랙션 모듈 개발",
     ],
   },
   {
