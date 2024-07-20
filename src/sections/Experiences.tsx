@@ -67,8 +67,7 @@ const experiences = [
     date: "2017.06 - 2021.04",
     position: "Frontend/Backend Developer",
     descriptions: [
-      "프론트 엔드 개발",
-      "백 엔드 개발",
+      "프론트엔드 & 백엔드 개발",
       "AWS 인프라 운영 및 관리",
       "딥 러닝 프로젝트 진행",
     ],

@@ -20,18 +20,6 @@ const projects = [
     ],
   },
   {
-    name: "CMS 고도화",
-    date: "2024.04 - 현재",
-    subname: "CMS 고도화",
-    descriptions: [
-      "Nslot 관리 페이지 리뉴얼 및 기능 추가",
-      "Npoker 관리 페이지 기능 고도화",
-      "비용 효율화를 위한 CMS 배치서비스를 Spring Boot로 분리",
-      "추가되는 게임 기능에 따른 CMS에 관련된 기능 추가",
-      "Vault를 연동하여 민감한 환경변수들을 안전하게 관리",
-    ],
-  },
-  {
     name: "채널링 정산 서비스 리뉴얼",
     date: "2024.01 - 현재",
     subname: "채널링 서비스 정산 관리 프로젝트",
@@ -44,15 +32,19 @@ const projects = [
     ],
   },
   {
-    name: "CMS이전",
-    date: "2024.12 - 2024.04",
-    subname: "Legacy 시스템 이전 프로젝트",
+    name: "CMS 이전 및 고도화",
+    date: "2023.12 - 현재",
+    subname: "CMS 고도화",
     descriptions: [
       "Java, PHP를 기반으로 만들어진 백엔드 서버 Node.js(Nest.js)로 이전 작업",
       "jsp로 만들어진 프론트엔드 페이지 react.js로 리뉴얼 작업",
       "CMS1(PHP), CMS2(JAVA) 여러가지로 파편화 되어있던 데이터베이스를 하나로 합치며, 필요없는 레거시 테이블 삭제 작업 진행",
       "Docker를 사용하여 컨테이너 기반의 서비스로 변경",
       "Jenkins를 활용하여 CI/CD 구축",
+      "Vault를 연동하여 민감한 환경변수들을 안전하게 관리하도록 변경",
+      "Nslot/Npoker 관리 페이지 리뉴얼 및 고도화",
+      "추가되는 게임 기능에 따른 CMS에 관련된 기능 추가",
+      "비용 효율화를 위한 CMS 배치서비스를 Spring Boot로 분리"
     ],
   },
   {
@@ -66,18 +58,8 @@ const projects = [
     ],
   },
   {
-    name: "NSlot 게임 서비스 정상화",
-    date: "2023.10 - 2023.11",
-    subname: "NSlot 서비스",
-    descriptions: [
-      "개발서버에 남아있는 데이터베이스 구조 및 데이터 분석을 통한 게임서버팀 지원",
-      "게임 서버 구성에서 사용되어있던 apache서버 분석 및 정상화",
-      "CMS와의 연동 정상화",
-    ],
-  },
-  {
-    name: "NPoker 게임 서비스 정상화 프로젝트",
-    date: "2023.08 - 2023.10",
+    name: "NPoker & NSlot 게임 서비스 정상화 프로젝트",
+    date: "2023.08 - 2023.11",
     subname: "NPoker 서비스",
     descriptions: [
       "모종의 사유로 모든 AWS 서비스가 백업 없이 삭제되어있는 환경에서 서비스 정상화",
@@ -85,22 +67,17 @@ const projects = [
       "AWS의 결제내역을 분석하여 AWS 인프라 역산 및 구성",
       "웹 서비스가 여러가지로 파편화 되어있어, 관리 효율화를 위해 Jenkins를 활용한 CI/CD 자동화 도입",
       "PHP, JAVA로 되어있는 코드 유지보수 및 수정",
+      "NSlot 게임 서버 구성에서 사용되어있던 apache서버 분석 및 정상화",
+      "CMS와의 연동 정상화",
     ],
   },
   {
-    name: "Soundwix",
+    name: "Soundwix & Quiz",
     date: "2023.07 - 2023.08",
-    subname: "음원 합성 웹 서비스",
+    subname: "음원 합성, 퀴즈 웹 서비스",
     descriptions: [
       "React.js를 기반으로 한 프론트엔드 페이지 개발",
       "AWS 인프라 구성",
-    ],
-  },
-  {
-    name: "Quiz",
-    date: "2023.07 - 2023.08",
-    subname: "Quiz 웹/앱 서비스",
-    descriptions: [
       "PHP로 기반으로 만들어진 백엔드 서버 Node.js로 리뉴얼 작업",
       "react.js를 기반으로 만들어진 프론트엔드 페이지 수정 작업",
     ],
@@ -110,7 +87,7 @@ const projects = [
     date: "2023.02 - 2023.06",
     subname: "웹 기반 정산관리 시스템",
     descriptions: [
-      "다단계 회원구조의 정산관리 시스템의 전반적인 구조 설계",
+      "MLM 구조의 정산관리 시스템의 전반적인 구조 설계",
       "Typescript, React.js를 활용한 정산관리 시스템 관리자페이지 Frontend 개발",
       "Typescript, Node.js를 활용한 정산관리 시스템 Backend 개발",
       "PM으로서 업무분담, 일정 관리 및 기획업무까지 담당",
@@ -145,10 +122,9 @@ const projects = [
     date: "2020.06 - 2021.04",
     subname: "LG U+ 무인 키오스크 솔루션",
     descriptions: [
-      "Node.js 기반의 AWS 서버 구축 및 무인 키오스크 솔루션 개발",
-      "React.js, React-Native를 사용하여 프론트 엔드 개발",
+      "Node.js 기반의 백엔드 개발",
+      "React.js, React-Native를 사용하여 프론트엔드 개발",
       "LG U+의 Legacy Java API, ESB(Enterprise Service Bus)와의 연동 모듈 개발",
-      "Legacy코드와의 연동이 얼마나 힘든 것인지 많은 배움이 있었던 프로젝트",
     ],
   },
   {
@@ -156,13 +132,11 @@ const projects = [
     date: "2020.01 - 2020.08",
     subname: "수협 실시간 사이니지 솔루션",
     descriptions: [
-      "수협 단독사용을 위한 사이니지 솔루션 개발",
-      "기존의 Do-order 솔루션을 활용할 수 있었으나, 수협 단독사용에는 필요없는 코드들이 너무 많다고 판단되어 새로운 솔루션으로 개발",
       "Node.js와 Express.js를 사용하여 백엔드 개발",
-      "GraphQl을 사용하여 데이터 관리",
       "react.js, react-native기반의 프론트 엔드 개발",
+      "GraphQL 도입으로 overfetching 방지 및 생산성 향상",
       "HLS 프로토콜연동을 통한 수협 라이브 방송 송출기능 개발",
-      "수협의 FTP서버와 연동을 통한 컨텐츠 업로드기능 개발",
+      "FTP서버와 연동을 통한 컨텐츠 업로드기능 개발",
     ],
   },
   {
