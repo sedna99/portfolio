@@ -118,7 +118,7 @@ const projects = [
     ],
   },
   {
-    name: "LG U+ 솔루션",
+    name: "LG U+ 무인 키오스트 솔루션",
     date: "2020.06 - 2021.04",
     subname: "LG U+ 무인 키오스크 솔루션",
     descriptions: [
@@ -128,7 +128,7 @@ const projects = [
     ],
   },
   {
-    name: "수협 솔루션",
+    name: "수협 방송 사이니지 솔루션",
     date: "2020.01 - 2020.08",
     subname: "수협 실시간 사이니지 솔루션",
     descriptions: [
