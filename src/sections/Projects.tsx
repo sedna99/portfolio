@@ -77,9 +77,9 @@ const projects = [
     subname: "음원 합성, 퀴즈 웹 서비스",
     descriptions: [
       "React.js를 기반으로 한 프론트엔드 페이지 개발",
-      "AWS 인프라 구성",
       "PHP로 기반으로 만들어진 백엔드 서버 Node.js로 리뉴얼 작업",
       "react.js를 기반으로 만들어진 프론트엔드 페이지 수정 작업",
+      "AWS 인프라 구성",
     ],
   },
   {
