@@ -68,7 +68,7 @@ const projects = [
       "웹 서비스가 여러가지로 파편화 되어있어, 관리 효율화를 위해 Jenkins를 활용한 CI/CD 자동화 도입",
       "PHP, JAVA로 되어있는 코드 유지보수 및 수정",
       "NSlot 게임 서버 구성에서 사용되어있던 apache서버 분석 및 정상화",
-      "CMS와의 연동 정상화",
+      "CMS, NPLAYSHOP, API, NPASS, NLOBBY, INFRA 각 서버 정상화 및 서버간 연동 정상화",
     ],
   },
   {
