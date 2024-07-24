@@ -94,7 +94,7 @@ const projects = [
     ],
   },
   {
-    name: "Wallet",
+    name: "MPP Wallet",
     date: "2022.12 - 2023.02",
     subname: "블록체인 지갑 어플리케이션",
     descriptions: [
