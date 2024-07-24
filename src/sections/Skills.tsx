@@ -37,6 +37,15 @@ const skills = [
       "Ubuntu, CentOS, Amazon Linux, Windows Server",
     ],
   },
+  {
+    title: "ETC",
+    skills: [
+      "Bitbucket, Github, Gitlab, Gitea",
+      "Trello, Asana, Jira, ClickUp, Mantis, Notion",
+      "Confluence, Swagger, Postman",
+      "Figma, Zeplin",
+    ],
+  },
 ];
 
 const SkillCard = ({ title, skills, isLast }: SkillCardProps) => {
