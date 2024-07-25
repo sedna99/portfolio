@@ -15,6 +15,7 @@ const projects = [
     subname: "Webslot 연동 프로젝트",
     descriptions: [
       "Nslot 게임에 타사에서 개발한 Webslot 게임 연동작업 프로젝트 PM역할 진행",
+      "SQL Server Enterprise -> SQL Server Standard로의 DB 이전 작업",
       "전체적인 일정 관리, 타사와의 연동/이슈 사항 정리 및 의사소통 담당",
       "AWS 인프라 세팅 및 관리 담당",
     ],
