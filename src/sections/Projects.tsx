@@ -26,6 +26,7 @@ const projects = [
     descriptions: [
       "Java(Spring Boot)를 기반으로 만들어진 백엔드 서버 수정 작업, 기능 추가 작업",
       "react.js로 만들어진 프론트엔드 페이지 기능 변경 작업, 기능 추가 작업",
+      "CRA기반의 프로젝트에서 Vite기반의 프로젝트로 전환 및 Typescript 도입",
       "Mysql 데이터베이스 구조 변경작업 및 Mybatis 쿼리 성능 개선",
       "Jenkins를 통한 CI/CD 구축",
       "Vault를 연동하여 민감한 환경변수들을 안전하게 관리",
@@ -44,7 +45,7 @@ const projects = [
       "Vault를 연동하여 민감한 환경변수들을 안전하게 관리하도록 변경",
       "Nslot/Npoker 관리 페이지 리뉴얼 및 고도화",
       "추가되는 게임 기능에 따른 CMS에 관련된 기능 추가",
-      "비용 효율화를 위한 CMS 배치서비스를 Spring Batch로 분리"
+      "비용 효율화를 위한 CMS 배치서비스를 Spring Batch로 분리",
     ],
   },
   {
