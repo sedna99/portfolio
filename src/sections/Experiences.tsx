@@ -30,8 +30,8 @@ const experiences = [
     date: "2023.07 - 2023.08",
     position: "FE/BE Developer & Cloud Engineer",
     descriptions: [
-      "React.js 기반의 웹 서비스 프론트엔드 개발",
-      "Node.js 기반의 웹 서비스 백엔드 개발",
+      "Typescript, React.js 기반의 웹 서비스 프론트엔드 개발",
+      "Typescript, Node.js(Nest.js) 기반의 웹 서비스 백엔드 개발",
       "AWS 인프라 설계, 구축 및 운영",
     ],
   },
@@ -42,8 +42,8 @@ const experiences = [
     descriptions: [
       "React-Native 기반의 블록체인 어플리케이션 개발",
       "Web3.js와 Infura 기반의 폴리곤(MATIC) 블록체인 연동 기능 개발",
-      "Node.js 기반의 블록체인 어플리케이션 Backend 개발",
-      "Typescript, Node.js, React.js 기반의 정산 관리 시스템 기획, FE, BE 설계 및 개발",
+      "Node.js(Express.js) 기반의 블록체인 어플리케이션 Backend 개발",
+      "Typescript, Node.js(Nest.js), React.js 기반의 정산 관리 시스템 기획, FE, BE 설계 및 개발",
       "AWS, NCP 인프라 설계, 구축 및 운영",
       "프로젝트 일정 관리 및 업무 분담",
     ],
@@ -66,7 +66,7 @@ const experiences = [
     date: "2017.06 - 2021.04",
     position: "Frontend/Backend Developer",
     descriptions: [
-      "Javascript, Typescript, Node.js, React.js 기반의 풀스택 개발",
+      "Javascript, Typescript, Node.js(Express.js, hapi.js), React.js 기반의 풀스택 개발",
       "연구용 딥 러닝 프로젝트 진행",
       "AWS 인프라 운영 및 관리",
     ],
