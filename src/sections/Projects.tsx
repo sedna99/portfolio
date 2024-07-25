@@ -54,7 +54,7 @@ const projects = [
     subname: "Nplayshop 채널링 서비스 프로젝트",
     descriptions: [
       "node.js(nest.js)를 기반으로 한 API 서버 개발",
-      "Nplayshop과의 채널링 서비스 개발",
+      "Nplayshop과의 회원 채널링 서비스 개발",
       "실시간 게임 데이터 연동 기능 개발",
     ],
   },
