@@ -53,7 +53,7 @@ const projects = [
     date: "2023.11 - 2024.01",
     subname: "Nplayshop 채널링 서비스 프로젝트",
     descriptions: [
-      "node.js(nest.js)를 기반으로 한 API 서버 개발",
+      "Typescript, Node.js(Nest.js)를 기반으로 한 API 서버 개발",
       "Nplayshop과의 회원 채널링 서비스 개발",
       "실시간 게임 데이터 연동 기능 개발",
     ],
@@ -120,7 +120,7 @@ const projects = [
     ],
   },
   {
-    name: "LG U+ 무인 키오스트 솔루션",
+    name: "LG U+ 무인 키오스크 솔루션",
     date: "2020.06 - 2021.04",
     subname: "LG U+ 무인 키오스크 솔루션",
     descriptions: [
