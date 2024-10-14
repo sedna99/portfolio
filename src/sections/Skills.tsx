@@ -28,11 +28,11 @@ const skills = [
     ],
   },
   {
-    title: "Devops",
+    title: "DevOps",
     skills: [
       "MySQL, MariaDB, MongoDB, Redis",
       "Jenkins, Gitlab CI, Github Actions",
-      "AWS, Docker, Harbor, HashiCorp Vault, ELK",
+      "AWS, Docker, Harbor, HashiCorp Vault, ELK, Kubernetes, Terraform",
       "Nginx, Apache, Tomcat",
       "Ubuntu, CentOS, Amazon Linux, Windows Server",
     ],
@@ -50,18 +50,20 @@ const skills = [
 
 const SkillCard = ({ title, skills, isLast }: SkillCardProps) => {
   return (
-    <div className={`flex flex-wrap items-center justify-between ${!isLast ? "mb-5" : ""}`}>
+    <div
+      className={`flex flex-wrap items-center justify-between ${
+        !isLast ? "mb-5" : ""
+      }`}
+    >
       <div className="flex items-center text-2xl w-[35%]">{title}</div>
       <div className="w-[65%] text-md">
         {skills.map((skill, index) => (
-          <p key={index}>
-            • {skill}
-          </p>
+          <p key={index}>• {skill}</p>
         ))}
       </div>
     </div>
   );
-}
+};
 
 const Skills = () => {
   return (
@@ -69,7 +71,12 @@ const Skills = () => {
       <SectionName name="SKILLS" />
       <div className="flex flex-col w-[90%]">
         {skills.map((skill, index) => (
-          <SkillCard key={index} title={skill.title} skills={skill.skills} isLast={skills.length === index + 1} />
+          <SkillCard
+            key={index}
+            title={skill.title}
+            skills={skill.skills}
+            isLast={skills.length === index + 1}
+          />
         ))}
       </div>
     </div>

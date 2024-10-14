@@ -10,8 +10,14 @@ type ProjectCardProps = {
 
 const projects = [
   {
+    name: "Vultr 클라우드 이전",
+    date: "2024.09 - 2024.09",
+    subname: "Vultr 클라우드 이전 프로젝트",
+    descriptions: ["AWS에서 Vultr로의 모든 서비스 이전 작업"],
+  },
+  {
     name: "Webslot 연동 프로젝트 관리",
-    date: "2024.04 - 현재",
+    date: "2024.04 - 2024.09",
     subname: "Webslot 연동 프로젝트",
     descriptions: [
       "Nslot 게임에 타사에서 개발한 Webslot 게임 연동작업 프로젝트 PM역할 진행",
@@ -22,7 +28,7 @@ const projects = [
   },
   {
     name: "채널링 정산 서비스 리뉴얼",
-    date: "2024.01 - 현재",
+    date: "2024.01 - 2024.09",
     subname: "채널링 서비스 정산 관리 프로젝트",
     descriptions: [
       "Java(Spring Boot)를 기반으로 만들어진 백엔드 서버 수정 작업, 기능 추가 작업",
@@ -35,7 +41,7 @@ const projects = [
   },
   {
     name: "CMS 이전 및 고도화",
-    date: "2023.12 - 현재",
+    date: "2023.12 - 2024.09",
     subname: "CMS 고도화",
     descriptions: [
       "Java(Spring Boot), PHP(CI, Laravel)를 기반으로 만들어진 백엔드 서버 Node.js(Nest.js)로 이전 작업",
@@ -50,7 +56,7 @@ const projects = [
   },
   {
     name: "채널링 서비스 API 서버 개발",
-    date: "2023.11 - 2024.01",
+    date: "2023.11 - 2024.09",
     subname: "Nplayshop 채널링 서비스 프로젝트",
     descriptions: [
       "Typescript, Node.js(Nest.js)를 기반으로 한 API 서버 개발",

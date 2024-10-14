@@ -10,8 +10,14 @@ type ExperienceCardProps = {
 
 const experiences = [
   {
+    name: "Bagelcode",
+    date: "2024.10 - 재직중",
+    position: "Server Software Engineer",
+    descriptions: ["EKS Cluster 유지보수 및 운영"],
+  },
+  {
     name: "에스제이이앤엠",
-    date: "2023.08 - 재직중",
+    date: "2023.08 - 2024.09",
     position: "FE/BE Developer & Cloud Engineer",
     descriptions: [
       "AWS 인프라 설계, 구축 및 운영, 비용관리",
