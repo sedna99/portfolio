@@ -15,7 +15,7 @@ const Objective = () => {
         Next.js, React-Query, Recoil, Zustand, Redux 등의 기술 스택을 사용하여
         다양한 프론트엔드 개발 프로젝트를 수행하였습니다. 대부분의 프로젝트에서
         AWS를 사용하여 인프라 설계 및 구축을 담당했으며, Docker, Jenkins,
-        Harbor, HashiCorp Vault, ELK 등의 툴을 사용한 경험이 있습니다.
+        Harbor, HashiCorp Vault, ELK, Terraform, EKS 등의 툴을 사용한 경험이 있습니다.
         <br />
         <br />
         딥러닝 연구 프로젝트와 크로스플랫폼 프레임워크를 활용한 어플리케이션

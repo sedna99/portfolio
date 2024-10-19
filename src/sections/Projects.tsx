@@ -10,6 +10,15 @@ type ProjectCardProps = {
 
 const projects = [
   {
+    name: "CVS Server 유지보수",
+    date: "2024.10 - 진행중",
+    subname: "CVS, CBN, JPM 서버 유지보수 및 기능개선",
+    descriptions: [
+      "EKS, Opensearch 등을 사용한 AWS 서비스 버전 관리 및 유지보수",
+      "비즈니스 로직 유지보수 및 기능개선"
+    ]
+  },
+  {
     name: "Vultr 클라우드 이전",
     date: "2024.09 - 2024.09",
     subname: "Vultr 클라우드 이전 프로젝트",
